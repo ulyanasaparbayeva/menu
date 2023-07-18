@@ -1,0 +1,64 @@
+.sidebar {
+  position: fixed;
+   width: 123px;
+   background-color: rgb(99 102 241);
+    height: 100vh;
+    left: -300px;
+    z-index: 1;
+}
+
+.sidebar.show {
+    left: 0;
+}
+
+.close-icon {
+    position: absolute;
+    top: -48px;
+    right: -46px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    position: absolute;
+    top: 10px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+
+
+.menu-icon. {
+    transform: translateX(100px);
+}
+
+
+
+.menu-icon.close i:first-child {
+    display: none;
+}
+
+.menu-icon.close i:last-child {
+    display: inline-block;
+}
+
+
+.sidebar ul {
+list-style: none;
+
+}
+
+.sidebar i{
+    margin: 50px 0px;
+    cursor: pointer;
+}
+
+
+.menu {
+    position: relative;
+    display: flex;
+}
+
+.menu-icon {
+    cursor: pointer;
+}
+
